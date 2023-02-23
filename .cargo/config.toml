@@ -1,0 +1,8 @@
+[target.thumbv4t-none-eabi]
+rustflags = ["-Clink-arg=-Tgba.ld", "-Ctarget-cpu=arm7tdmi"]
+runner = "mgba-qt"
+
+[target.armv4t-none-eabi]
+rustflags = ["-Clink-arg=-Tgba.ld", "-Ctarget-cpu=arm7tdmi"]
+runner = "mgba-qt"
+

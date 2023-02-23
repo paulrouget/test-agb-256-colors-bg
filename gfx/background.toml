@@ -1,0 +1,7 @@
+version = "1.0"
+
+[image.background]
+filename = "background.png"
+tile_size = "8x8"
+colours = 256
+
